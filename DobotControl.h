@@ -40,5 +40,4 @@ void StorageBay3Stack2Dobot ();
 
 void StorageBay3Stack3Dobot ();
 
-// implement this function to move the Dobot to the Colour Sensor Position
-//void ColourSensorPositionDobot ();
+void ColourSensorPositionDobot ();
