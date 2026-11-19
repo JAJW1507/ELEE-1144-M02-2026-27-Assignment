@@ -284,22 +284,20 @@ void StorageBay3Stack3Dobot (){
     dobot.commandFrame(storagebay3stack3);
 }
 
-/* Update with correct values for the colour sensor position once known
-void ColourSensorPositionDobot(){}
+void ColourSensorPositionDobot(){
     byte coloursensorposition[] ={
         170, 170,           //Header
         19,                 //Length
         84,                 //ID (Checksum = 84)
         3,                  //Ctrl (Checksum = 87)
         1,                  //Mode (Checksum = 88)
-        67,243,194,66,      //X (Checksum = 658)
-        202,49,118,67,      //Y (Checksum = 1094)
-        0,54,137,64,        //Z (Checksum = 1349)
-        0,0,0,0,            //R (Checksum = 1349)
-        187};               //Checksum (1349 mod 256
-                            //256 x 5 = 1280
-                            //Checksum = 1349 - 1280 = 69)
-                            //256 - 69 = 187
+        20,73,66,67         //X (Checksum = 314)
+        231,65,129,195      //Y (Checksum = 934)
+        80,29,64,64         //Z (Checksum = 1171)
+        0,0,0,0,            //R (Checksum = 1171)
+        109};               //Checksum (1171 mod 256)
+                            //256 x 4 = 1024
+                            //Checksum = 1171 - 1024 = 147)
+                            //256 - 147 = 109
     dobot.commandFrame(coloursensorposition);
 }
-*/
